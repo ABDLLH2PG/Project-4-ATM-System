@@ -141,6 +141,10 @@
   <ItemGroup>
     <ClCompile Include="ATM System.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\LocalClientFile.txt" />
+    <Text Include="Clients.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
